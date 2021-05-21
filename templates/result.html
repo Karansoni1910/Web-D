@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Result</title>
+</head>
+<body>
+    <!-- <img src="img.jpg"> -->
+<h3>The predictions are as follows:-</h3>
+
+{% for r,p in res %}
+    <strong>{{r}} :- {{p}}%</strong> <br/>
+{% endfor %} 
+
+</body>
+</html>
